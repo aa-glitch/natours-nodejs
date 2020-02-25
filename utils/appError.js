@@ -7,7 +7,7 @@ class AppError extends Error {
     this.operational = true;
 
     Error.captureStackTrace(this, this.constructor);
-  }
+  } /*  */
 }
 
 module.exports = AppError;
